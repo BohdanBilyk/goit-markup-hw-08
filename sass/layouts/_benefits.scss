@@ -1,0 +1,78 @@
+.list-subhead {
+    padding-left: 0px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .back-fone {
+    position: relative;
+   
+  }
+  
+  .text-fone {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--color-wite);
+    background-color: var(--color-back-fone);
+  
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  
+  .advantage-site {
+    display: flex;
+  }
+  
+  .advantage-site .advantage-text:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .advantage-text {
+    width: 270px;
+  }
+  
+  .title-advantage {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .text {
+    color: var(--color-contact);
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 0px;
+    letter-spacing: 0.03em;
+  }
+  
+  .fone-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: var(--color-button);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .icon {
+    width: 70px;
+    height: 70px;
+    fill: #212121;
+  }
+  
+  .work {
+    padding-top: 0;
+  }

@@ -1,0 +1,108 @@
+.team {
+    background-color: var(--color-button);
+  }
+  
+  .container.team {
+    background-color: var(--color-button);
+  }
+  
+  .subhead {
+    font-size: 36px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
+  .subhead-team {
+    font-size: 36px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
+  .list-team {
+    padding-left: 0px;
+    justify-content: space-between;
+    margin: 0;
+    display: flex;
+  }
+  
+  .stone {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 270px;
+    background-color: var(--color-wite);
+  }
+  
+  .team-li {
+    text-align: center;
+    list-style: none;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+      0px 2px 1px rgb(0 0 0 / 20%);
+  }
+  
+  .name {
+    font-weight: 500;
+    color: var(--color-text);
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 10px;
+  }
+  
+  .text-team {
+    color: var(--color-contact);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+  }
+  .list-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icon:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .social {
+    max-width: 100%;
+    height: auto;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: var(--color-icon);
+  
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-svg {
+    width: 44px;
+    height: 44px;
+    color: currentColor;
+   
+  
+  }
+  .social:hover {
+    background-color: var(--color-accent);
+    fill: var(--color-wite);
+  }
+  .social:focus {
+    background-color: var(--color-accent);
+    fill: var(--color-wite);
+  }
