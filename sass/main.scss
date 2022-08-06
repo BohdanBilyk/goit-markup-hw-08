@@ -1,9 +1,12 @@
 @import'./utils/variables';
 
+@import'./base/modern-normalaize';
 @import'./base/reset';
 @import'./base/coman';
 
+
 @import'./components/hidden';
+@import'./components/section';
 @import'./components/container';
 @import'./components/modal';
 @import'./components/buttons';
