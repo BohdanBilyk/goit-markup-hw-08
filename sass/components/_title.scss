@@ -1,9 +1,8 @@
 .hero-title {
     color: var(--color-wite);
-    width: 696px;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
   
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -15,7 +14,26 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+
+    @media screen and (min-width: 768px)
+    { color: var(--color-wite);
+      width: 696px;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+    
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 30px;
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+}
   // title portfolio
   .title-portfolio {
     font-size: 18px;

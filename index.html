@@ -22,6 +22,7 @@
     <div class="container page-header">
       <nav class="menu">
         <a href="./index.html" class="menu__logo"><span class="menu__logoweb">Web</span>Studio</a>
+        <div class="menu-container" id="menu-container" data-menu>
         <ul class="menu__site-nav list">
           <li class="menu__item">
             <a href="./index.html" class="link current menu__navigation">Студия</a>
@@ -48,6 +49,26 @@
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
+      <div class="header-socials">
+        <a class="header-socials__link" href="https://www.instagram.com/">Instagram</a>
+        <a class="header-socials__link" href="https://twitter.com/">Twitter</a>
+        <a class="header-socials__link" href="https://www.facebook.com/">Facebook</a>
+        <a class="header-socials__link" href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
+    </div>
+    <button
+          type="button"
+          class="menu-button"
+          aria-label="переключатель мобильного меню"
+          aria-controls="menu-container"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg width="40" height="40">
+            <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+            <use class="icon-cross" href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
     </div>
   </header>
   <main>
@@ -116,12 +137,12 @@
 
     <!--что делаем-->
     <section class="work section">
-      <div class="container">
+      <div class=" work-mobile container">
         <h2 class="subhead">Чем мы занимаемся</h2>
         <ul class="list-subhead">
           <li>
             <div class="back-fone">
-              <img width="370" height="294" src="./images/img1.jpg" alt="написання коду" />
+              <img width="370" height="294" src="./images/img1-370.jpg" alt="написання коду" />
               <div>
                 <p class="text-fone">Десктопные приложения</p>
               </div>

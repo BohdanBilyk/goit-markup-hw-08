@@ -3,17 +3,19 @@
 }
 .page-header {
   display: flex;
+  
+  
 }
 
 .menu {
   display: flex;
   align-items: center;
-  // align-items: center;
-  // display: flex;
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.15;
-  // letter-spacing: 0.02em;
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 
   &__logo {
     color: var(--color-text);
@@ -23,24 +25,28 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     margin-right: 93px;
+
+    @media screen and (max-width: 1199px) {
+        font-size: 24px;
+    }
+
   }
-  
     &__logoweb {
     color: var(--color-accent);
   }
 
   &__site-nav {
     display: flex;
-    
+   
   }
-  //   &__site-nav {
-  //   align-items: center;
-  //   display: flex;
-  //   font-weight: 500;
-  //   font-size: 14px;
-  //   line-height: 1.15;
-  //   letter-spacing: 0.02em;
-  // }
+    &__site-nav {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+  }
   &__item {
   &:not(:last-child) {
   margin-right: 50px;

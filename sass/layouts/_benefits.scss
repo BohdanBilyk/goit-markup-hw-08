@@ -28,29 +28,47 @@
     letter-spacing: 0.03em;
     text-align: center;
   }
+ 
   .advantage {
     padding-top: 94px;
   
-  }
-  
+}
   .advantage-site {
-    display: flex;
+    
+    @media screen and (min-width: 768px)
+ {display: flex;
   }
+}
   
   .advantage-site .advantage-text:not(:last-child) {
+
+    @media screen and (min-width: 768px)
+ {
     margin-right: 30px;
   }
-  
+}
   .advantage-text {
-    width: 270px;
+   
+    @media screen and (min-width: 768px)
+    {  width: 270px;
   }
+}
   
   .title-advantage {
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
+
+    
+    @media screen and (min-width: 768px)
+ {    font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   }
+}
   
   .text {
     color: var(--color-contact);
@@ -77,5 +95,14 @@
   }
   
   .work {
-    padding-top: 0;
+    @media screen and (max-width: 768px)
+    {
+      display: none;
+  }
+}
+   .worc-mobile {
+    
+    @media screen and (min-width: 768px)
+ {   padding-top: 0;
+   }
   }
